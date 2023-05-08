@@ -6,22 +6,20 @@ import {
 } from "react-router-dom";
 import './index.css';
 import App from './App';
-import Error from './error';
 import SecondComponent from './22';
 import FirstComponent from './11';
 
 const router = createBrowserRouter([
   {
-    path: "routerTest/",
+    path: "/",
     element: <App />,
-    errorElement: <Error />,
   },
   {
-    path: "routerTest/1",
+    path: "/1",
     element: <FirstComponent />,
   },
   {
-    path: "routerTest/2",
+    path: "/2",
     element: <SecondComponent />,
   },
 ]);
