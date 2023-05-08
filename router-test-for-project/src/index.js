@@ -24,6 +24,10 @@ const router = createBrowserRouter([
     path: "/2",
     element: <SecondComponent />,
   },
+  {
+    path: "/2/1",
+    element: <FirstComponent />,
+  },
 ],{ basename: "/routerTest" });
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
