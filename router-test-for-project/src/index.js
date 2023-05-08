@@ -9,20 +9,22 @@ import App from './App';
 import SecondComponent from './22';
 import FirstComponent from './11';
 
+
+
 const router = createBrowserRouter([
   {
-    path: "/routerTest/",
+    path: "/",
     element: <App />,
   },
   {
-    path: "/routerTest/1",
+    path: "/1",
     element: <FirstComponent />,
   },
   {
-    path: "/routerTest/2",
+    path: "/2",
     element: <SecondComponent />,
   },
-]);
+],{ basename: "/routerTest" });
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(

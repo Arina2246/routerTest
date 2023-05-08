@@ -6,8 +6,8 @@ function App() {
     <div className="App">
       <button ><Link to="1">1</Link></button>
       <button ><Link to="2">2</Link></button>
-      <Link to="1">About</Link>
-      <Link to="/routerTest/1">About</Link>
+      <a href={`/1`}>1</a>
+      <a href={`/2`}>2</a>
     </div>
   );
 }
