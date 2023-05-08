@@ -1,8 +1,9 @@
+import { Link } from "react-router-dom";
 export default function SecondComponent() {
   return (
     <>
       <div>Second Page</div>
-      <button ><a href={`/1`}>1</a></button>
+      <button ><Link to="1">1</Link></button>
     </>
   );
 }
