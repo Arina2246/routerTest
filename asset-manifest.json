@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/routerTest/static/css/main.3427e20f.css",
-    "main.js": "/routerTest/static/js/main.49e1a62c.js",
-    "index.html": "/routerTest/index.html",
-    "main.3427e20f.css.map": "/routerTest/static/css/main.3427e20f.css.map",
-    "main.49e1a62c.js.map": "/routerTest/static/js/main.49e1a62c.js.map"
+    "main.css": "/static/css/main.3427e20f.css",
+    "main.js": "/static/js/main.14914bff.js",
+    "index.html": "/index.html",
+    "main.3427e20f.css.map": "/static/css/main.3427e20f.css.map",
+    "main.14914bff.js.map": "/static/js/main.14914bff.js.map"
   },
   "entrypoints": [
     "static/css/main.3427e20f.css",
-    "static/js/main.49e1a62c.js"
+    "static/js/main.14914bff.js"
   ]
 }
