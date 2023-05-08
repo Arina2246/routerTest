@@ -12,16 +12,16 @@ import FirstComponent from './11';
 
 const router = createBrowserRouter([
   {
-    path: "/",
+    path: "routerTest/",
     element: <App />,
     errorElement: <Error />,
   },
   {
-    path: "1",
+    path: "routerTest/1",
     element: <FirstComponent />,
   },
   {
-    path: "2",
+    path: "routerTest/2",
     element: <SecondComponent />,
   },
 ]);
